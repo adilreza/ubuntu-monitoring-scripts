@@ -13,8 +13,8 @@ Replace `OWNER` and the monitoring IP with your actual values.
 
 ```bash
 set -o pipefail
-curl -fsSL https://raw.githubusercontent.com/OWNER/ubuntu-monitoring-scripts/main/node-exporter.sh | sudo bash -s
-curl -fsSL https://raw.githubusercontent.com/OWNER/ubuntu-monitoring-scripts/main/install-ubuntu-ssh-alloy.sh | sudo bash -s -- MONITORING_SERVER_PRIVATE_IP
+curl -fsSL https://raw.githubusercontent.com/adilreza/ubuntu-monitoring-scripts/main/node-exporter.sh | sudo bash -s
+curl -fsSL https://raw.githubusercontent.com/adilreza/ubuntu-monitoring-scripts/main/install-ubuntu-ssh-alloy.sh | sudo bash -s -- MONITORING_SERVER_PRIVATE_IP
 ```
 
 For a server-specific Node Exporter bind address:
